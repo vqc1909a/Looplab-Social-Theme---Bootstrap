@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+     <link rel="stylesheet" href="css/style.css">
+     <title>Bootstrap theme</title>
+     <script src="https://kit.fontawesome.com/c3e2e9d902.js" crossorigin="anonymous"></script>
+</head>
+<body>
+     <!-- INICIO SECTION -->
+    
+
+     <!-- HOME SECTION -->
+     <header class="main-head">
+           <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top">
+               <div class="container">
+                    <!--! Marca de tu empresa -->
+                    <h1><a href="index.html" class="navbar-brand">LoopLAB</a></h1>
+                    <!--! Menu de Hamburguesa -->
+                    <!--! data-toggle: conmutación de datos, como va a actuar ese toggle-->
+                    <!--! data-target: objetivo de datos, donde esta tus datos, un id  -->
+                    <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+                         <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarCollapse">
+                         <ul class="navbar-nav ml-auto">
+                              <li class="nav-item">
+                                   <a href="#home" class="nav-link">Inicio</a>
+                              </li>
+                              <li class="nav-item">
+                                   <a href="#explore-head-section" class="nav-link">Explorar</a>
+                              </li>
+                              <li class="nav-item">
+                                   <a href="#create-head-section" class="nav-link">Crear</a>
+                              </li>
+                              <li class="nav-item">
+                                   <a href="#share-head-section" class="nav-link">Guardar</a>
+                              </li>
+                         </ul>
+                    </div>
+               </div>
+          </nav>
+          <div class="dark-overlay">
+               <div class="container">
+                    <div class="row justify-content-center">
+                         <div class="d-none d-lg-block col-lg-8">
+                              <h1 class="display-4">Crear <strong>perfiles sociales</strong> y obtén beneficios de <strong>ingresos</strong></h1>
+                              <div class="d-flex align-items-center">
+                                   <div class="p-4 align-self-start">
+                                        <i class="fas fa-check fa-2x p-2 bg-white rounded"></i>
+                                   </div>
+                                   <div class="p-4">
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem libero voluptate commodi eius corrupti iste.
+                                   </div>
+                              </div>
+                               <div class="d-flex align-items-center">
+                                   <div class="p-4 align-self-start">
+                                        <i class="fas fa-check fa-2x p-2 bg-white rounded"></i>
+                                   </div>
+                                   <div class="p-4">
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem libero voluptate commodi eius corrupti iste.
+                                   </div>
+                              </div>
+                              <div class="d-flex align-items-center">
+                                   <div class="p-4 align-self-start">
+                                        <i class="fas fa-check fa-2x p-2 bg-white rounded"></i>
+                                   </div>
+                                   <div class="p-4">
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem libero voluptate commodi eius corrupti iste.
+                                   </div>
+                              </div>
+                         </div>
+
+                         <div class="col-sm-10 col-lg-4">
+                              <div class="card bg-primary text-center card-form">
+                                   <div class="card-body">
+                                        <h3>Regístrate hoy</h3>
+                                        <p>Rellenar este formulario para registrarse</p>
+                                        <form action="">
+                                             <div class="form-group">
+                                                  <input type="text" name="username" id="username" class="form-control form-control-lg" placeholder="Username">
+                                             </div>
+                                              <div class="form-group">
+                                                  <input type="email" name="email" id="email" class="form-control form-control-lg" placeholder="Email">
+                                             </div>
+                                              <div class="form-group">
+                                                  <input type="password" name="password" id="password" class="form-control form-control-lg" placeholder="Password">
+                                             </div>
+                                              <div class="form-group">
+                                                  <input type="password" name="confirm_password" id="confirm_password" class="form-control form-control-lg" placeholder="Confirmar Password">
+                                             </div>
+                                             <input type="submit" class="btn  btn-outline-light btn-block" value="Registrarse">
+                                        </form>
+                                   </div>
+                              </div>
+                         </div>
+                    </div>
+               </div>
+          </div>
+
+     </header>
+
+
+
+
+
+     <span id="year" style="color: #fff"></span>
+     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+
+     <script>
+          // Conseguir el actual año para el copyright
+          $('#year').text(new Date().getFullYear());
+     </script>
+</body>
+</html>

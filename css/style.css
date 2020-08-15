@@ -1,0 +1,27 @@
+body{
+     background: #333;
+     color: #fff;
+}
+.navbar{
+     border-bottom: #008ed6 3px solid;
+     opacity: 0.8;
+     min-height: 10vh;
+}
+.main-head{
+     min-height: 100vh;
+     background: linear-gradient(rgba(0,0,0,1), transparent),  url("../img/home.jpg");
+     background-position: center;
+     background-size: cover;
+     background-repeat: no-repeat;
+     background-attachment: fixed;
+}
+.main-head .dark-overlay{
+     padding-top: 20vh;
+     min-height: 90vh;
+}
+.main-head .card-form{
+     opacity: .8;
+}
+.main-head .fas{
+     color: #008ed6;
+}
