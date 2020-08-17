@@ -8,16 +8,14 @@
      <title>Bootstrap theme</title>
      <script src="https://kit.fontawesome.com/c3e2e9d902.js" crossorigin="anonymous"></script>
 </head>
-<body>
-     <!-- INICIO SECTION -->
-    
+<body data-spy="scroll" data-target="#main-nav">    
 
-     <!-- HOME SECTION -->
-     <header class="main-head">
-           <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top">
+     <!-- HEAD SECTION -->
+     <header class="main-head" id="home">
+           <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top" id="main-nav">
                <div class="container">
                     <!--! Marca de tu empresa -->
-                    <h1><a href="index.html" class="navbar-brand">LoopLAB</a></h1>
+                    <h1 class="navbar-brand"><a href="index.html" class="text-white">LoopLAB</a></h1>
                     <!--! Menu de Hamburguesa -->
                     <!--! data-toggle: conmutación de datos, como va a actuar ese toggle-->
                     <!--! data-target: objetivo de datos, donde esta tus datos, un id  -->
@@ -30,26 +28,31 @@
                                    <a href="#home" class="nav-link">Inicio</a>
                               </li>
                               <li class="nav-item">
-                                   <a href="#explore-head-section" class="nav-link">Explorar</a>
+                                   <a href="#explore" class="nav-link">Explorar</a>
                               </li>
                               <li class="nav-item">
-                                   <a href="#create-head-section" class="nav-link">Crear</a>
+                                   <a href="#create" class="nav-link">Crear</a>
                               </li>
                               <li class="nav-item">
-                                   <a href="#share-head-section" class="nav-link">Guardar</a>
+                                   <a href="#share" class="nav-link">Compartir</a>
                               </li>
                          </ul>
                     </div>
                </div>
           </nav>
-          <div class="dark-overlay">
+     </header>
+
+
+     <!-- EXPLORE SECTION -->
+     <main>
+          <section class="hero">
                <div class="container">
                     <div class="row justify-content-center">
                          <div class="d-none d-lg-block col-lg-8">
-                              <h1 class="display-4">Crear <strong>perfiles sociales</strong> y obtén beneficios de <strong>ingresos</strong></h1>
+                              <h2 class="display-4">Crear <strong>perfiles sociales</strong> y obtén beneficios de <strong>ingresos</strong></h2>
                               <div class="d-flex align-items-center">
                                    <div class="p-4 align-self-start">
-                                        <i class="fas fa-check fa-2x p-2 bg-white rounded"></i>
+                                        <i class="fas fa-check fa-2x p-1 bg-white rounded"></i>
                                    </div>
                                    <div class="p-4">
                                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem libero voluptate commodi eius corrupti iste.
@@ -57,7 +60,7 @@
                               </div>
                                <div class="d-flex align-items-center">
                                    <div class="p-4 align-self-start">
-                                        <i class="fas fa-check fa-2x p-2 bg-white rounded"></i>
+                                        <i class="fas fa-check fa-2x p-1 bg-white rounded"></i>
                                    </div>
                                    <div class="p-4">
                                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem libero voluptate commodi eius corrupti iste.
@@ -65,7 +68,7 @@
                               </div>
                               <div class="d-flex align-items-center">
                                    <div class="p-4 align-self-start">
-                                        <i class="fas fa-check fa-2x p-2 bg-white rounded"></i>
+                                        <i class="fas fa-check fa-2x p-1 bg-white rounded"></i>
                                    </div>
                                    <div class="p-4">
                                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem libero voluptate commodi eius corrupti iste.
@@ -74,7 +77,7 @@
                          </div>
 
                          <div class="col-sm-10 col-lg-4">
-                              <div class="card bg-primary text-center card-form">
+                              <div class="card bg-primary text-center">
                                    <div class="card-body">
                                         <h3>Regístrate hoy</h3>
                                         <p>Rellenar este formulario para registrarse</p>
@@ -98,22 +101,214 @@
                          </div>
                     </div>
                </div>
+          </section>
+        <section id="explore">
+                    <div class="explore-head">
+                         <div class="container">
+                               <div class="row">
+                                   <div class="col py-5 text-center">
+                                        <h2 class="display-4">Explorar</h2>
+                                        <p class="lead">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aperiam temporibus maiores distinctio dolor facilis suscipit, iusto dolore porro, quibusdam beatae nulla. Earum ex modi alias labore dignissimos explicabo vitae optio?</p>
+                                        <a href="" class="btn btn-outline-secondary">Saber más</a>
+                                   </div>
+                              </div>
+                         </div>
+                    </div>
+                    <div class="explore-body bg-light">
+                         <div class="container">
+                                 <div class="row py-5  text-muted">
+                                        <div class="col-md-6 mb-4">
+                                             <img src="img/explore-section1.jpg" alt="explore-section" class="img-fluid rounded-circle">
+                                        </div>
+                                        <div class="col-md-6">
+                                                  <h3>Explorar & Conectar</h3>
+                                                  <p>Lorem ipsum dolor sext-muteit amet consectetur adipisicing elit. Est, nisi aliquid! Temporibus, adipisci laborum. Corrupti vitae repudiandae voluptas esse excepturi!</p>
+                                                  <div class="d-flex">
+                                                       <div class="p-4 align-self-start">
+                                                            <i class="fas fa-check fa-2x p-1 rounded"></i>
+                                                       </div>
+                                                       <div class="p-4">
+                                                       Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptates quibusdam assumenda aperiam, odit omnis aliquam.
+                                                       </div>
+                                                  </div>
+                                                  <div class="d-flex">
+                                                       <div class="p-4 align-self-start">
+                                                            <i class="fas fa-check fa-2x p-1 rounded"></i>
+                                                       </div>
+                                                       <div class="p-4">
+                                                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptates quibusdam assumenda aperiam, odit omnis aliquam.
+                                                       </div>
+                                                  </div>
+                                        </div>  
+                                   </div>     
+                         </div>
+                    </div>
+             </div>
+        </section>
+        <!-- CREATE SECTION -->
+        <section id="create">
+                    <div class="create-head bg-primary">
+                         <div class="container">
+                               <div class="row">
+                                   <div class="col py-5 text-center">
+                                        <h2 class="display-4">Crear</h2>
+                                        <p class="lead">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aperiam temporibus maiores distinctio dolor facilis suscipit, iusto dolore porro, quibusdam beatae nulla. Earum ex modi alias labore dignissimos explicabo vitae optio?</p>
+                                        <a href="" class="btn btn-outline-light">Saber más</a>
+                                   </div>
+                              </div>
+                         </div>
+                    </div>
+                    <div class="create-body">
+                         <div class="container">
+                                 <div class="row py-5 color-white">
+                                        <div class="col-md-6 mb-4 order-2">
+                                             <img src="img/create-section1.jpg" alt="create-section" class="img-fluid rounded-circle">
+                                        </div>
+                                        <div class="col-md-6 order-1">
+                                                  <h3>Crea Tu Pasion</h3>
+                                                  <p>Lorem ipsum dolor sext-muteit amet consectetur adipisicing elit. Est, nisi aliquid! Temporibus, adipisci laborum. Corrupti vitae repudiandae voluptas esse excepturi!</p>
+                                                  <div class="d-flex">
+                                                       <div class="p-4 align-self-start">
+                                                            <i class="fas fa-check fa-2x p-1 rounded"></i>
+                                                       </div>
+                                                       <div class="p-4">
+                                                       Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptates quibusdam assumenda aperiam, odit omnis aliquam.
+                                                       </div>
+                                                  </div>
+                                                  <div class="d-flex">
+                                                       <div class="p-4 align-self-start">
+                                                            <i class="fas fa-check fa-2x p-1 rounded"></i>
+                                                       </div>
+                                                       <div class="p-4">
+                                                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptates quibusdam assumenda aperiam, odit omnis aliquam.
+                                                       </div>
+                                                  </div>
+                                        </div>  
+                                   </div>     
+                         </div>
+                    </div>
+             </div>
+        </section>
+         <section id="share">
+                    <div class="share-head bg-primary">
+                         <div class="container">
+                               <div class="row">
+                                   <div class="col py-5 text-center">
+                                        <h2 class="display-4">Compartir</h2>
+                                        <p class="lead">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aperiam temporibus maiores distinctio dolor facilis suscipit, iusto dolore porro, quibusdam beatae nulla. Earum ex modi alias labore dignissimos explicabo vitae optio?</p>
+                                        <a href="" class="btn btn-outline-light">Saber más</a>
+                                   </div>
+                              </div>
+                         </div>
+                    </div>
+                    <div class="share-body bg-light">
+                         <div class="container">
+                                 <div class="row py-5  text-muted">
+                                        <div class="col-md-6 mb-4">
+                                             <img src="img/share-section1.jpg" alt="explore-section" class="img-fluid rounded-circle">
+                                        </div>
+                                        <div class="col-md-6">
+                                                  <h3>Comparte lo que creas</h3>
+                                                  <p>Lorem ipsum dolor sext-muteit amet consectetur adipisicing elit. Est, nisi aliquid! Temporibus, adipisci laborum. Corrupti vitae repudiandae voluptas esse excepturi!</p>
+                                                  <div class="d-flex">
+                                                       <div class="p-4 align-self-start">
+                                                            <i class="fas fa-check fa-2x p-1 rounded"></i>
+                                                       </div>
+                                                       <div class="p-4">
+                                                       Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptates quibusdam assumenda aperiam, odit omnis aliquam.
+                                                       </div>
+                                                  </div>
+                                                  <div class="d-flex">
+                                                       <div class="p-4 align-self-start">
+                                                            <i class="fas fa-check fa-2x p-1 rounded"></i>
+                                                       </div>
+                                                       <div class="p-4">
+                                                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptates quibusdam assumenda aperiam, odit omnis aliquam.
+                                                       </div>
+                                                  </div>
+                                        </div>  
+                                   </div>     
+                         </div>
+                    </div>
+             </div>
+        </section>
+     </main>
+     <!-- FOOTER SECTION -->
+     <footer class="bg-dark">
+          <div class="container">
+               <div class="row">
+                    <div class="col p-4 text-center">
+                         <h2 class="">LoopLab</h2>
+                         <p class="lead">Copyright &copy; <span id="year"></span></p>
+                         <button class="btn btn-outline-light" data-toggle="modal" data-target="#contactModal">Contáctanos</button>
+                    </div>
+               </div>
           </div>
+     </footer>
 
-     </header>
+     <!-- CONTACT-MODAL -->
+     <div class="modal fade text-dark" id="contactModal">
+          <div class="modal-dialog">
+               <div class="modal-content">
+                    <div class="modal-header">
+                         <h3 class="modal-title">Contáctanos</h3>
+                         <button class="close" data-dismiss="modal">
+                              <span>&times;</span>
+                         </button>
+                    </div>
+                    <div class="modal-body">
+                         <form>
+                              <div class="form-group">
+                                   <label for="name">Nombre</label>
+                                   <input type="text" name="name" id="name" class="form-control">
+                              </div>
+                              <div class="form-group">
+                                   <label for="email">Email</label>
+                                   <input type="email" name="email" id="email" class="form-control">
+                              </div>
+                              <div class="form-group">
+                                   <label for="message">Mensaje</label>
+                                   <textarea name="message" class="form-control"></textarea>
+                              </div>
+                         </form>
+                    </div>
+                    <div class="modal-footer">
+                         <button type="submit" class="btn btn-primary btn-block">Enviar</button>
+                    </div>
+               </div>
+          </div>
+     </div>
 
-
-
-
-
-     <span id="year" style="color: #fff"></span>
-     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script      src="https://code.jquery.com/jquery-3.5.1.js"
+			  integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
+			  crossorigin="anonymous"></script>
      <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
 
      <script>
           // Conseguir el actual año para el copyright
           $('#year').text(new Date().getFullYear());
+          const enviar = () =>{
+               console.log('hola');
+          }
+
+          // Init Scrollspy
+          $('body').scrollspy({target: "#main-nav"})
+
+          // Smooth Scrolling
+          $("#main-nav a").on('click', function(e){
+               if(this.hash !== ''){
+                    e.preventDefault();
+                    const hash = this.hash;
+
+                    $('html, body').animate({
+                         scrollTop: $(hash).offset().top
+                    }, 800, function(){
+                         window.location.hash = hash;
+                    });    
+               }
+          });
+
      </script>
 </body>
 </html>

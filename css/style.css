@@ -2,26 +2,47 @@ body{
      background: #333;
      color: #fff;
 }
-.navbar{
-     border-bottom: #008ed6 3px solid;
-     opacity: 0.8;
+.main-head {
      min-height: 10vh;
 }
-.main-head{
-     min-height: 100vh;
-     background: linear-gradient(rgba(0,0,0,1), transparent),  url("../img/home.jpg");
-     background-position: center;
-     background-size: cover;
-     background-repeat: no-repeat;
-     background-attachment: fixed;
+.main-head .navbar{
+     border-bottom: #008ed6 3px solid;
+     opacity: 0.8;
 }
-.main-head .dark-overlay{
-     padding-top: 20vh;
-     min-height: 90vh;
+
+.hero{
+      min-height: 100vh;
+      padding-top: 10vh;
+      background: linear-gradient(rgba(0, 0, 0, 1), transparent),
+      url("../img/home.jpg");
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
 }
-.main-head .card-form{
+
+.hero .card{
      opacity: .8;
 }
-.main-head .fas{
+.hero .fas{
+     color: #008ed6;
+}
+#explore, #create, #share{
+     min-height: 100vh;
+}
+.explore-head, .create-head .share-head{
+     min-height: 20vh;
+     background: #333;
+
+}
+.explore-body, .create-body .share-body{
+     min-height: 80vh;
+}
+#explore .fas, #share .fas{
+     background: #333;
+     color: #fff;
+}
+#create .fas{
+     background: white;
      color: #008ed6;
 }
